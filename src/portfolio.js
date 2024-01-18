@@ -11,13 +11,13 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Youtube",
-  title: "Hi All, I'm Royal",
+  username: "mptamilan",
+  title: "Hi All, I'm Prithiviraj",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 Having An Experience Of Building Web And Mobile Applications With JavaScript / Reactjs / Nodejs / React Native And Some Other Cool Libraries And Frameworks."
+    "A Website/Discord/Server/Minecraft Developer 🚀. Experience in WordPress & Ptrodoctyl Softwares"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,14 +37,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Crazy Full Stack Developer Who Want To Learn More Programming Languages",
+  subTitle: "Crazy Discord Developer.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Expert in Website creator Using WordPress Software"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Talented in Ptrodoctyl Software"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Iam Also a Logo and Icon Designer Using Canva and Pixellab"
     )
   ],
 
@@ -61,24 +61,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -87,22 +75,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -114,10 +86,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Karai High School",
-      logo: require("./assets/images/lfes.png"),
+      schoolName: "Karai Hr Sec School",
+      logo: require("./assets/images/karai.png"),
       subHeader: "Normal Student",
-      duration: "January 2020 - January 2021",
+      duration: "2024 - 2025",
       desc: "Practiced English And Computer",
       descBullets: [
         "I Love English In School",
@@ -134,15 +106,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "20%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "5%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "1%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -157,15 +129,15 @@ const workExperiences = {
       role: "Royal Development",
       company: "Royal",
       companylogo: require("./assets/images/Rd.png"),
-      date: "June 2021 – June 2021",
+      date: "June 2021 - January 2022",
       desc: "Programming For Royal Development"
     },
     {
-      role: "KARONA GAMING",
-      company: "Coding And Gaming",
-      companylogo: require("./assets/images/karona.png"),
-      date: "Apirl 2021 – October 2021",
-      desc: "Programmer And Gamer For KARONAGAMING"
+      role: "RoyalCraft Smp",
+      company: "Minecraft",
+      companylogo: require("./assets/images/royalcraft.png"),
+      date: "Running..",
+      desc: "Minecraft Server Developer"
     }
   ]
 };
@@ -182,24 +154,12 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Some Normal Discord Stuffs I Coded In Free Time",
+  subtitle: "Some Normal Discord Stuffs I Managed In Free Time",
   projects: [
-    {
-      image: require("./assets/images/rcodez.png"),
-      projectName: "Rcodez",
-      projectDesc: "Rcodez Is  A Discord Bot List Site!",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://rcodez.ddns.net"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
     {
       image: require("./assets/images/royalofficial.png"),
       projectName: "Royal Official",
-      projectDesc: "Royal Official Is  A Discord Bot!",
+      projectDesc: "Royal Official Is  A Discord Bot! Service Ended",
       footerLink: [
         {
           name: "Invite Bot",
@@ -221,19 +181,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Developer Program Member",
-      subtitle:
-        "Member Of Github Programming Team Member.",
-      image: require("./assets/images/github.png"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://github.com/Royal-development"
-        },
-      ]
-    },
-    {
-      title: "Discord Bot Developer",
+      title: "Discord Bot And Server Developer",
       subtitle:
         "Member Of Discord Developing Company.",
       image: require("./assets/images/discord.png"),
@@ -257,35 +205,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://www.w3schools.com/",
+      url: "https://www.guvi.in/",
       title: "How To Learn Coding?",
       description:
-        "You Can Learn Coding From Diffent Sites / Videos But I Suggest To Use W3 School."
+        "You Can Learn Coding From Diffent Sites / Videos But I Suggest To Use Guvi."
     },
     {
       url: "https://discord.gg/7YtDujvD",
       title: "Why React Is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-
-const talkSection = {
-  title: "Talks",
-  subtitle: emoji(
-    "I Love To Share My Limited Knowledge 🙄"
-  ),
-
-  talks: [
-    {
-      title: "Learn JavaScript / HTML",
-      subtitle: "Chandragadhi Birtamode 57204",
-      slides_url: "https://bit.ly/notsaksh",
-      event_url: "https://www.facebook.com/sakshyam.baral.311/"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -330,7 +259,6 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
-  talkSection,
   podcastSection,
   contactInfo,
   twitterDetails
